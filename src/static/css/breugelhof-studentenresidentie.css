@@ -148,7 +148,7 @@ figcaption {
 }
 
 .header {
-  background-image: linear-gradient(#00000080, #00000080), url('../images/tobias-cornille-ZPpC98Vus3k-unsplash.jpg');
+  background-image: linear-gradient(#00000080, #00000080), url('../static/img/tobias-cornille-ZPpC98Vus3k-unsplash.jpg');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   justify-content: center;
@@ -161,7 +161,7 @@ figcaption {
 
 .header.contact {
   color: var(--bg-grey);
-  background-image: linear-gradient(#000c, #000c), url('../images/Breugelhof-pre1.JPG');
+  background-image: linear-gradient(#000c, #000c), url('../static/img/Breugelhof-pre1.JPG');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   min-height: 100vh;
@@ -169,7 +169,7 @@ figcaption {
 
 .header.black {
   background-color: var(--black);
-  background-image: linear-gradient(180deg, var(--black) 18%, #141414d9), url('../images/leuven.jpg');
+  background-image: linear-gradient(180deg, var(--black) 18%, #141414d9), url('../static/img/leuven.jpg');
   background-position: 0 0, 0 25%;
   background-size: auto, auto;
 }
@@ -461,7 +461,7 @@ figcaption {
 }
 
 .slide {
-  background-image: url('../images/image-slider-01.jpg');
+  background-image: url('../static/img/image-slider-01.jpg');
   background-position: 50%;
   background-size: cover;
 }
@@ -480,13 +480,13 @@ figcaption {
 }
 
 .slide-2 {
-  background-image: url('../images/image-slider-02.jpg');
+  background-image: url('../static/img/image-slider-02.jpg');
   background-position: 50%;
   background-size: cover;
 }
 
 .slide-3 {
-  background-image: url('../images/image-slider-03.jpg');
+  background-image: url('../static/img/image-slider-03.jpg');
   background-position: 50%;
   background-size: cover;
 }
@@ -780,7 +780,7 @@ figcaption {
 }
 
 .premium-banner {
-  background-image: url('../images/image-premium-banner.jpg');
+  background-image: url('../static/img/image-premium-banner.jpg');
   background-position: 50%;
   background-size: cover;
   justify-content: center;
@@ -1694,7 +1694,7 @@ figcaption {
 }
 
 .about-section {
-  background-image: linear-gradient(135deg, var(--white), #f9f6f1e6), url('../images/leuven-plan.jpg');
+  background-image: linear-gradient(135deg, var(--white), #f9f6f1e6), url('../static/img/leuven-plan.jpg');
   color: var(--black);
   background-position: 0 0, 100% 100%;
   background-repeat: repeat, no-repeat;
@@ -1706,7 +1706,7 @@ figcaption {
 }
 
 .about-section.dark {
-  background-image: linear-gradient(135deg, var(--black), #141414e6), url('../images/leuven-plan.jpg');
+  background-image: linear-gradient(135deg, var(--black), #141414e6), url('../static/img/leuven-plan.jpg');
   color: var(--white);
   background-position: 0 0, 100% 100%;
   background-repeat: repeat, no-repeat;
