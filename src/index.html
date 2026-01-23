@@ -62,7 +62,7 @@ description: "Breugelhof is een studentenresidentie in Leuven, we bieden betaalb
         <a href="/units/{{ unit.data.titel | slug }}.html" class="unit w-inline-block">
           <div class="holderunitinfo">
             <div><span class="titleunit">{{ unit.data.titel }} - </span><span class="available-tag {% if unit.data.status == 'verhuurd' %}false{% endif %}">{{ unit.data.status }}</span></div>
-            <div>{{ unit.data.grootte }} m²</div>
+            <div>{{ unit.data.grootte }} m² {% if unit.data.mezzanine %}+ mezzanine{% endif %}"</div>
           </div>
           <img src="{{ unit.data.hoofdafbeelding }}" loading="lazy" alt="" class="imageunit">
           <div class="meerinfobtn">
