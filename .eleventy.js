@@ -54,6 +54,11 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  eleventyConfig.addFilter("slug", (value) => {
+    if (!value) return "";
+    return slugify(value, { lower: true, strict: true });
+  });
+
   // Let Eleventy transform HTML files as nunjucks
   // So that we can use .html instead of .njk
   return {

@@ -15,6 +15,7 @@ collections:
   - label: "Units"
     name: "units"
     folder: "src/units"
+    slug: "{{fields.titel | slug}}"
     create: true
     editor:
       preview: false
@@ -23,13 +24,7 @@ collections:
       - { label: "Kleine beschrijving", name: "beschrijving", widget: "string" }
       - { label: "Grootte in m²", name: "grootte", widget: "string", required: true }
       - { label: "Type", name: "type", widget: "select", options: ["Studio", "Appartement"], required: true }
-      - { label: "Status", name: "status", widget: "select", options: ["Bezet", "Beschikbaar"], required: true }
-      - label: "Vanaf wanneer terug beschikbaar"
-        name: "beschikbaarVanaf"
-        widget: "date"
-        condition:
-          field: status
-          value: "Bezet"
+      - { label: "Status", name: "status", widget: "select", options: ["verhuurd", "beschikbaar"], required: true }
       - { label: "Hoofdafbeelding", name: "hoofdafbeelding", widget: "image", required: true }
       - label: "Afbeeldingen"
         name: "afbeeldingen"
