@@ -28,21 +28,27 @@ collections:
       - label: "Mezzanine?"
         name: "mezzanine"
         widget: "boolean"
+        required: false
       - label: "Eigen sanitair?"
         name: "sanitair"
         widget: "boolean"
+        required: false
       - label: "Ingerichte keuken?"
         name: "keuken"
         widget: "boolean"
+        required: false
       - label: "Bureau?"
         name: "bureau"
         widget: "boolean"
+        required: false
       - label: "Kledingkast?"
         name: "kledingkast"
         widget: "boolean"
+        required: false
       - label: "Bed?"
         name: "bed"
         widget: "boolean"
+        required: false
       - { label: "Hoofdafbeelding", name: "hoofdafbeelding", widget: "image", required: true }
       - label: "Afbeeldingen"
         name: "afbeeldingen"
