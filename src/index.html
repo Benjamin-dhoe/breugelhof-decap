@@ -59,10 +59,10 @@ description: "Breugelhof is een studentenresidentie in Leuven, we bieden betaalb
     <div class="holderunits">
       {% for unit in unitsList %}
         {% if unit.data.type == "Appartement" %}
-        <a href="units/{{ post.data.titel }}.html" class="unit w-inline-block">
+        <a href="units/{{ unit.data.titel }}.html" class="unit w-inline-block">
           <div class="holderunitinfo">
-            <div><span class="titleunit">{{ post.data.titel }} - </span><span class="available-tag">beschikbaar</span></div>
-            <div>{{ post.data.grootte }} m²</div>
+            <div><span class="titleunit">{{ unit.data.titel }} - </span><span class="available-tag">beschikbaar</span></div>
+            <div>{{ unit.data.grootte }} m²</div>
           </div><img src="/static/img/Appartement-01.jpg" loading="lazy" sizes="(max-width: 4961px) 100vw, 4961px" srcset="/static/img/Appartement-01-p-500.jpg 500w, /static/img/Appartement-01-p-800.jpg 800w, /static/img/Appartement-01-p-1080.jpg 1080w, /static/img/Appartement-01-p-1600.jpg 1600w, /static/img/Appartement-01-p-2000.jpg 2000w, /static/img/Appartement-01-p-2600.jpg 2600w, /static/img/Appartement-01-p-3200.jpg 3200w, /static/img/Appartement-01.jpg 4961w" alt="" class="imageunit">
           <div class="meerinfobtn">
             <div>Meer info</div>
