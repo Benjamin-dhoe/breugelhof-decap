@@ -19,11 +19,25 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "Titel unit", name: "titel", widget: "string" }
+      - { label: "Titel unit", name: "titel", widget: "string", required: true }
       - { label: "Kleine beschrijving", name: "beschrijving", widget: "string" }
-      - { label: "Grootte in m²", name: "grootte", widget: "string" }
-      - { label: "Type", name: "type", widget: "select", options: ["Studio", "Appartement"] }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Grootte in m²", name: "grootte", widget: "string", required: true }
+      - { label: "Type", name: "type", widget: "select", options: ["Studio", "Appartement"], required: true }
+      - { label: "Status", name: "status", widget: "select", options: ["Bezet", "Beschikbaar"], required: true }
+      - label: "Vanaf wanneer terug beschikbaar"
+        name: "beschikbaarVanaf"
+        widget: "date"
+        condition:
+          field: status
+          value: "Bezet"
+      - { label: "Hoofdafbeelding", name: "hoofdafbeelding", widget: "image", required: true }
+      - label: "Afbeeldingen"
+        name: "afbeeldingen"
+        widget: "list"
+        field:
+          label: "Afbeelding"
+          name: "image"
+          widget: "image"
   - label: "Settings"
     name: "settings"
     editor:
