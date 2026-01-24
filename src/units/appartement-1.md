@@ -11,13 +11,7 @@ keuken: true
 bureau: true
 kledingkast: true
 bed: true
-html: |-
-  **T﻿est html bold**
-
-  D﻿it is een test om html op de pagina te tonen
-
-  * l﻿ist item
-  * n﻿og een
+html: ""
 hoofdafbeelding: /static/img/uploads/appartement-01-p-1080.jpg
 afbeeldingen:
   - /static/img/uploads/appartement1-12-.jpeg
