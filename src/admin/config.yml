@@ -49,6 +49,7 @@ collections:
         name: "bed"
         widget: "boolean"
         required: false
+      - { label: "Extra content", name: "html", widget: "markdown" }
       - { label: "Hoofdafbeelding", name: "hoofdafbeelding", widget: "image", required: true }
       - label: "Afbeeldingen"
         name: "afbeeldingen"
