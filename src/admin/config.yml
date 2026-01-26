@@ -25,6 +25,7 @@ collections:
       - { label: "Grootte in m²", name: "grootte", widget: "string", required: true }
       - { label: "Type", name: "type", widget: "select", options: ["Studio", "Appartement"], required: true }
       - { label: "Status", name: "status", widget: "select", options: ["verhuurd", "beschikbaar"], required: true }
+      - { label: "Extra tekst in overzicht", name: "disclaimer", widget: "string", required: false }
       - label: "Mezzanine?"
         name: "mezzanine"
         widget: "boolean"
