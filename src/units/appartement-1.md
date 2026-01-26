@@ -5,6 +5,7 @@ beschrijving: Volledig gerenoveerd appartement op wandelafstand van
 grootte: 43,06
 type: Appartement
 status: beschikbaar
+disclaimer: Terug beschikbaar vanaf academiejaar 26-27
 mezzanine: false
 sanitair: true
 keuken: true
