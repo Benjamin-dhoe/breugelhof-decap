@@ -15,10 +15,8 @@ bed: true
 html: ""
 hoofdafbeelding: /static/img/uploads/appartement1-1-.jpeg
 afbeeldingen:
-  - /static/img/uploads/appartement1-12-.jpeg
   - /static/img/uploads/appartement1-2-.jpeg
   - /static/img/uploads/appartement1-3-.jpeg
-  - /static/img/uploads/appartement1-12-.jpeg
   - /static/img/uploads/appartement1-4-.jpeg
   - /static/img/uploads/appartement1-5-.jpeg
   - /static/img/uploads/appartement1-6-.jpeg
