@@ -25,6 +25,5 @@ afbeeldingen:
   - /static/img/uploads/appartement1-7-.jpeg
   - /static/img/uploads/appartement1-8-.jpeg
   - /static/img/uploads/appartement1-9-.jpeg
-  - /static/img/uploads/appartement1-10-.jpeg
   - /static/img/uploads/appartement1-11-.jpeg
 ---
