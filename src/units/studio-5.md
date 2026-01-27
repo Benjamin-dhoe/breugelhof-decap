@@ -4,13 +4,14 @@ beschrijving: Volledig gerenoveerde studio op wandelafstand van universiteiten,
   winkels, openbaar vervoer en horeca.
 grootte: 27,40
 type: Studio
-status: beschikbaar
+status: verhuurd
+disclaimer: Academiejaar 2025 - 2026
 sanitair: true
 keuken: true
 bureau: true
 kledingkast: true
 bed: true
-hoofdafbeelding: /static/img/uploads/studio-05-p-1080.jpg
+hoofdafbeelding: /static/img/uploads/studio5-1-.jpeg
 afbeeldingen:
   - /static/img/uploads/studio5-1-.jpeg
   - /static/img/uploads/studio5-2-.jpeg
