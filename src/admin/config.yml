@@ -59,3 +59,16 @@ collections:
           label: "Afbeelding"
           name: "image"
           widget: "image"
+  - label: "Andere content"
+    name: "Andere content"
+    files:
+      - label: "Gemeenschappelijke info units"
+        name: "shared-units"
+        file: "src/_includes/partials/bottomsectionunit.html"
+        editor:
+          preview: false
+        fields: 
+          - { label: "Titel", name: "titel", widget: "string", required: true }
+          - { label: "Tekst", name: "tekst", widget: "string", required: true }
+          - { label: "Afbeelding", name: "afbeelding", widget: "image", required: true }
+        
