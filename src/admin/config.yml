@@ -64,7 +64,7 @@ collections:
     files:
       - label: "Gemeenschappelijke info units"
         name: "shared-units"
-        file: "src/_includes/partials/bottomsectionunit.html"
+        file: "src/_data/bottomsectionunits.yaml"
         editor:
           preview: false
         fields: 
