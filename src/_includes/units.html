@@ -10,7 +10,7 @@ layout: default
   <div class="section-unit-overview">
     <div class="container" style="flex-direction: row;">
       <div class="overview-unit">
-        <img src="{{hoofdafbeelding}}" loading="lazy" alt="" class="main-unit-image">
+        <img src="{{hoofdafbeelding}}" loading="lazy" alt="" class="main-unit-image {% if hoofdafbeelding-kleur %}kleur{% endif %}">
         <div class="unit-info">
           <div class="titleunit br">{{titel}}</div>
           <div class="smalltext">Brusselsestraat 89, Leuven</div>
