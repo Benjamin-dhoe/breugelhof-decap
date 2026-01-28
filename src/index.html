@@ -65,7 +65,7 @@ description: "Breugelhof is een studentenresidentie in Leuven, we bieden betaalb
             <div>{{ unit.data.grootte }} m² {% if unit.data.mezzanine %}+ mezzanine{% endif %}</div>
             {% if unit.data.disclaimer %}<div>{{ unit.data.disclaimer }}</div>{% endif %}
           </div>
-          <img src="{{ unit.data.hoofdafbeelding }}" loading="lazy" alt="" class="imageunit">
+          <img src="{{ unit.data.hoofdafbeelding }}" loading="lazy" alt="" class="imageunit {% if unit.data.hoofdafbeeldingkleur %}kleur{% endif %}">
           <div class="meerinfobtn">
             <div>Meer info</div>
             <div class="service-list-arrow w-embed"><svg fill="none" height="16" viewbox="0 0 64 64" width="16" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +88,7 @@ description: "Breugelhof is een studentenresidentie in Leuven, we bieden betaalb
             <div><span class="titleunit">{{ unit.data.titel }} - </span><span class="available-tag {% if unit.data.status == 'verhuurd' %}false{% endif %}">{{ unit.data.status }}</span></div>
             <div>{{ unit.data.grootte }} m² {% if unit.data.mezzanine %}+ mezzanine{% endif %}</div>
             {% if unit.data.disclaimer %}<div>{{ unit.data.disclaimer }}</div>{% endif %}
-          </div><img src="{{ unit.data.hoofdafbeelding }}" loading="lazy" alt="" class="imageunit">
+          </div><img src="{{ unit.data.hoofdafbeelding }}" loading="lazy" alt="" class="imageunit {% if unit.data.hoofdafbeeldingkleur %}kleur{% endif %}">
           <div class="meerinfobtn">
             <div>Meer info</div>
             <div class="service-list-arrow w-embed"><svg fill="none" height="16" viewbox="0 0 64 64" width="16" xmlns="http://www.w3.org/2000/svg">
