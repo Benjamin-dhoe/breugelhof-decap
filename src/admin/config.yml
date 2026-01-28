@@ -72,4 +72,14 @@ collections:
           - { label: "Titel", name: "titel", widget: "string", required: true }
           - { label: "Tekst", name: "tekst", widget: "string", required: true }
           - { label: "Afbeelding", name: "afbeelding", widget: "image", required: true }
+      - label: "Homepagina - sectie 1"
+        name: "homepageSectionOne"
+        file: "src/_data/homepagesectionone.yaml"
+        editor:
+          preview: false
+        fields: 
+          - { label: "Titel", name: "titel", widget: "string", required: true }
+          - { label: "Tekst 1", name: "tekst1", widget: "string", required: true }
+          - { label: "Tekst 2", name: "tekst2", widget: "string", required: false }
+          - { label: "Afbeelding", name: "afbeelding", widget: "image", required: true }
         
