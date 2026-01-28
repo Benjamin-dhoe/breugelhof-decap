@@ -1749,6 +1749,10 @@ figcaption {
   object-fit: cover;
 }
 
+.imageunit.kleur {
+  filter: none;
+}
+
 .titleunit {
   margin-bottom: 5px;
   font-family: Libre Franklin, sans-serif;
@@ -1796,6 +1800,10 @@ figcaption {
   width: 65%;
   overflow: hidden;
   filter: grayscale(100%);
+}
+
+.main-unit-image.kleur {
+  filter: none;
 }
 
 .unit-info {
