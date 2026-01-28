@@ -30,7 +30,7 @@
       {% set voorzieningenList = homepagefeatures.voorzieningen %}
       {% for voorziening in voorzieningenList %}
         <div class="listitem"><img src="/static/img/icons8-checkmark-48.png" loading="lazy" alt="" class="checkicon">
-          <div>{{voorziening.titel}}</div>
+          <div>{{voorziening}}</div>
         </div>
       {% endfor %}
     </div>
@@ -41,7 +41,7 @@
       {% set inbegrepenList = homepagefeatures.inbegrepen %}
       {% for inbegrepen in inbegrepenList %}
         <div class="listitem"><img src="/static/img/icons8-checkmark-48.png" loading="lazy" alt="" class="checkicon">
-          <div>{{inbegrepen.titel}}</div>
+          <div>{{inbegrepen}}</div>
         </div>
       {% endfor %}
     </div>
