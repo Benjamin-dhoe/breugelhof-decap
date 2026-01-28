@@ -1,13 +1,24 @@
-maintitel:
-mainfeature1titel:
-mainfeature1tekst:
-mainfeature2titel:
-mainfeature2tekst:
-mainfeature3titel:
-mainfeature3tekst:
+maintitel: Waarom kiezen voor Breugelhof?
+mainfeature1titel: Centrale ligging
+mainfeature1tekst: Op wandelafstand van universiteiten, winkels, openbaar
+  vervoer en horeca. Alles wat je nodig hebt, ligt om de hoek.
+mainfeature2titel: Volledig gerenoveerd
+mainfeature2tekst: Breugelhof werd recent volledig vernieuwd, met aandacht voor
+  kwaliteit, licht en ruimte – perfect afgestemd op studenten.
+mainfeature3titel: Gezellige, huiselijke sfeer
+mainfeature3tekst: Breugelhof straalt warmte en comfort uit. Dankzij het
+  kleinschalige karakter en de sfeervolle inrichting voelt het hier meteen als
+  thuiskomen.
 voorzieningen:
-  - titel: "Wifi"
-  - titel: "Parking"
+  - Bureau
+  - Kledingkast
+  - Bed
+  - Ingerichte keuken
+  - Eigen sanitair
 inbegrepen:
-  - titel: "Ontbijt"
-  - titel: "Beddengoed"
+  - Water
+  - Elektriciteit
+  - Verwarming
+  - Internet
+  - Kosten algemene delen
+  - Brandverzekering
