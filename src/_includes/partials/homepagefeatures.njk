@@ -1,0 +1,49 @@
+<div class="features">
+  <div class="container">
+    <div class="h2-container">
+      <h2 class="h2">{{homepagefeatures.maintitel}}</h2>
+    </div>
+    <div class="collection-list">
+      <div class="featuresitem">
+        <div class="featureitemholder">
+          <h3 class="h3">{{homepagefeatures.mainfeature1titel}}</h3>
+          <p class="paragraph cc-gray">{{homepagefeatures.mainfeature1tekst}}</p>
+        </div>
+      </div>
+      <div class="featuresitem">
+        <div class="featureitemholder">
+          <h3 class="h3">{{homepagefeatures.mainfeature2titel}}</h3>
+          <p class="paragraph cc-gray">{{homepagefeatures.mainfeature2tekst}}</p>
+        </div>
+      </div>
+    <div class="featuresitem">
+        <div class="featureitemholder">
+          <h3 class="h3">{{homepagefeatures.mainfeature3titel}}</h3>
+          <p class="paragraph cc-gray">{{homepagefeatures.mainfeature3tekst}}</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="separateinsection"></div>
+      <h2 class="h2">Voorzieningen</h2>
+      <div class="titleline"></div>
+      {% set voorzieningenList = homepagefeatures.voorzieningen %}
+      {% for voorziening in voorzieningenList %}
+        <div class="listitem"><img src="/static/img/icons8-checkmark-48.png" loading="lazy" alt="" class="checkicon">
+          <div>{{voorziening.titel}}</div>
+        </div>
+      {% endfor %}
+    </div>
+    <div>
+      <div class="separateinsection"></div>
+      <h2 class="h2">Inbegrepen in maandelijkse kosten</h2>
+      <div class="titleline"></div>
+      {% set inbegrepenList = homepagefeatures.inbegrepen %}
+      {% for inbegrepen in inbegrepenList %}
+        <div class="listitem"><img src="/static/img/icons8-checkmark-48.png" loading="lazy" alt="" class="checkicon">
+          <div>{{inbegrepen.titel}}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
