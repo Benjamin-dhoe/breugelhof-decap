@@ -12,6 +12,7 @@ bureau: true
 kledingkast: true
 bed: true
 hoofdafbeelding: /static/img/uploads/studio5-1-.jpeg
+hoofdafbeeldingkleur: true
 afbeeldingen:
   - /static/img/uploads/studio5-1-.jpeg
   - /static/img/uploads/studio5-2-.jpeg
