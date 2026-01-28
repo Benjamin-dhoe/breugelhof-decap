@@ -82,4 +82,32 @@ collections:
           - { label: "Tekst 1", name: "tekst1", widget: "string", required: true }
           - { label: "Tekst 2", name: "tekst2", widget: "string", required: false }
           - { label: "Afbeelding", name: "afbeelding", widget: "image", required: true }
+      - label: "Homepagina - features"
+        name: "homepageSectionFeatures"
+        file: "src/_data/homepagefeatures.yaml"
+        editor:
+          preview: false
+        fields: 
+          - { label: "Main titel", name: "maintitel", widget: "string", required: true }
+          - { label: "Main feature 1 titel", name: "mainfeature1titel", widget: "string", required: true }
+          - { label: "Main feature 1 tekst", name: "mainfeature1tekst", widget: "string", required: true }
+          - { label: "Main feature 2 titel", name: "mainfeature2titel", widget: "string", required: true }
+          - { label: "Main feature 2 tekst", name: "mainfeature2tekst", widget: "string", required: true }
+          - { label: "Main feature 3 titel", name: "mainfeature3titel", widget: "string", required: true }
+          - { label: "Main feature 3 tekst", name: "mainfeature3tekst", widget: "string", required: true }
+          - { label: "Tekst 2", name: "tekst2", widget: "string", required: false }
+          - label: "Voorzieningen"
+            name: "voorzieningen"
+            widget: "list"
+            fields:
+              label: "Titel"
+              name: "titel"
+              widget: "string"
+          - label: "Inbegrepen"
+            name: "inbegrepen"
+            widget: "list"
+            fields:
+              label: "Titel"
+              name: "titel"
+              widget: "string"
         
