@@ -99,14 +99,14 @@ collections:
           - label: "Voorzieningen"
             name: "voorzieningen"
             widget: "list"
-            fields:
+            field:
               label: "Titel"
               name: "titel"
               widget: "string"
           - label: "Inbegrepen"
             name: "inbegrepen"
             widget: "list"
-            fields:
+            field:
               label: "Titel"
               name: "titel"
               widget: "string"
