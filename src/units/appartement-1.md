@@ -2,6 +2,8 @@
 titel: Appartement 1
 beschrijving: Volledig gerenoveerd appartement op wandelafstand van
   universiteiten, winkels, openbaar vervoer en horeca.
+bed: true
+hoofdafbeelding-kleur: true
 grootte: 43,06
 type: Appartement
 status: verhuurd
@@ -11,10 +13,9 @@ sanitair: true
 keuken: true
 bureau: true
 kledingkast: true
-bed: true
 html: ""
 hoofdafbeelding: /static/img/uploads/whatsapp-image-2025-12-01-at-08.40.42-2-.jpeg
-hoofdafbeelding-kleur: true
+hoofdafbeeldingkleur: true
 afbeeldingen:
   - /static/img/uploads/appartement1-2-.jpeg
   - /static/img/uploads/appartement1-3-.jpeg
