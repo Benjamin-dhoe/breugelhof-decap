@@ -52,6 +52,7 @@ collections:
         required: false
       - { label: "Extra content", name: "html", widget: "markdown", required: false }
       - { label: "Hoofdafbeelding", name: "hoofdafbeelding", widget: "image", required: true }
+      - { label: "Hoofdafbeelding in kleur", name: "hoofdafbeelding-kleur", widget: "boolean", required: false }
       - label: "Afbeeldingen"
         name: "afbeeldingen"
         widget: "list"
