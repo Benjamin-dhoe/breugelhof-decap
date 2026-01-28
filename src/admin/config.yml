@@ -95,7 +95,6 @@ collections:
           - { label: "Main feature 2 tekst", name: "mainfeature2tekst", widget: "string", required: true }
           - { label: "Main feature 3 titel", name: "mainfeature3titel", widget: "string", required: true }
           - { label: "Main feature 3 tekst", name: "mainfeature3tekst", widget: "string", required: true }
-          - { label: "Tekst 2", name: "tekst2", widget: "string", required: false }
           - label: "Voorzieningen"
             name: "voorzieningen"
             widget: "list"
