@@ -14,6 +14,7 @@ kledingkast: true
 bed: true
 html: ""
 hoofdafbeelding: /static/img/uploads/whatsapp-image-2025-12-01-at-08.40.42-2-.jpeg
+hoofdafbeelding-kleur: true
 afbeeldingen:
   - /static/img/uploads/appartement1-2-.jpeg
   - /static/img/uploads/appartement1-3-.jpeg
