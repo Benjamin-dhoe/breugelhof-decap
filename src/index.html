@@ -12,47 +12,7 @@ description: "Breugelhof is een studentenresidentie in Leuven, we bieden betaalb
     <a href="contact.html" class="button w-button">Interesse? Contacteer ons!</a>
   </div>
 </div>
-<div class="about-section">
-  <div class="container">
-    <div class="row">
-      <div class="_2-row-image cc-row-spacing"><img src="/static/img/breugelhof-sep-9.jpg" loading="lazy" sizes="(max-width: 1816px) 100vw, 1816px" srcset="/static/img/breugelhof-sep-9-p-500.jpg 500w, /static/img/breugelhof-sep-9-p-800.jpg 800w, /static/img/breugelhof-sep-9.jpg 1816w" alt=""></div>
-      <div class="_2-row-text">
-        <div class="heading-subtitle">
-          <h2 class="heading-title">11 units in het hart van Leuven</h2>
-        </div>
-        <div class="home-one-about-content">
-          <p> We creëren hier comfortabele en volledig gerenoveerde éénslaapkamerappartementen in een gebouw dat een gezellige sfeer uitstraalt en beschikt over 9 studio’s en 2 appartementen.</p>
-          <p style="margin-top: 5px">Elke ruimte is zorgvuldig ingericht voor een aangenaam verblijf. De huurprijs hangt af van de grootte van de studio (de kamers beginnen vanaf 21 m²), dus er is altijd een optie die bij jouw wensen past.</p>
-          <div class="widget">
-            <div class="service-list">
-              <div class="service-list-item">
-                <a href="#studios" class="service-list-link w-inline-block">
-                  <div class="service-list-word-2">
-                    <div class="service-list-text">9 studios</div>
-                  </div>
-                  <div class="service-list-arrow w-embed"><svg fill="none" height="16" viewbox="0 0 64 64" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="m54.28 53.99v-45.33h-45.33v2.93h40.33l-41.25 41.25 2.07 2.07 41.25-41.25v40.33z"></path>
-                    </svg></div>
-                </a>
-              </div>
-              <div class="service-list-item">
-                <a href="#appartementen" class="service-list-link w-inline-block">
-                  <div class="service-list-word-2">
-                    <div class="service-list-text">2 appartementen</div>
-                  </div>
-                  <div class="service-list-arrow w-embed"><svg fill="none" height="16" viewbox="0 0 64 64" width="16" xmlns="http://www.w3.org/2000/svg">
-                      <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="m54.28 53.99v-45.33h-45.33v2.93h40.33l-41.25 41.25 2.07 2.07 41.25-41.25v40.33z"></path>
-                    </svg></div>
-                </a>
-              </div>
-              <div class="service-list-item"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+{% include "./partials/homepagesectionone.njk" %}
 {% set unitsList = collections.units %}
 <div id="appartementen" class="about-section dark">
   <div class="container">
