@@ -10,7 +10,7 @@ keuken: true
 bureau: true
 kledingkast: true
 bed: true
-hoofdafbeelding: /static/img/uploads/studio-09-p-1080.jpg
+hoofdafbeelding: /static/img/uploads/whatsapp-image-2025-12-01-at-08.45.17.jpeg
 afbeeldingen:
   - /static/img/uploads/studio9-1-.jpeg
   - /static/img/uploads/studio9-5-.jpeg
