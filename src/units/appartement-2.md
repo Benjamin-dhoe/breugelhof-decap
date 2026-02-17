@@ -17,4 +17,7 @@ afbeeldingen:
   - /static/img/uploads/image00002.jpeg
   - /static/img/uploads/image00001.jpeg
   - /static/img/uploads/image00018.jpeg
+  - /static/img/uploads/image00012.jpeg
+  - /static/img/uploads/image00019.jpeg
+  - /static/img/uploads/image00014.jpeg
 ---
