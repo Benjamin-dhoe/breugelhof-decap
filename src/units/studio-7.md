@@ -11,6 +11,7 @@ bureau: true
 kledingkast: true
 bed: true
 hoofdafbeelding: /static/img/uploads/whatsapp-image-2025-12-01-at-08.45.14-3-.jpeg
+hoofdafbeeldingkleur: true
 afbeeldingen:
   - /static/img/uploads/studio7-1-.jpeg
   - /static/img/uploads/studio7-3-.jpeg
