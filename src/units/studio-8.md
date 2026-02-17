@@ -12,6 +12,7 @@ bureau: true
 kledingkast: true
 bed: true
 hoofdafbeelding: /static/img/uploads/kast.jpg
+hoofdafbeeldingkleur: true
 afbeeldingen:
   - /static/img/uploads/studio8-2-.jpeg
   - /static/img/uploads/studio8-3-.jpeg
