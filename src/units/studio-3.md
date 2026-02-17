@@ -10,7 +10,7 @@ keuken: true
 bureau: true
 kledingkast: true
 bed: true
-hoofdafbeelding: /static/img/uploads/Studio-03-p-1080.jpg
+hoofdafbeelding: /static/img/uploads/bed.jpeg
 afbeeldingen:
   - /static/img/uploads/studio3-1-.jpeg
   - /static/img/uploads/studio3-2-.jpeg
