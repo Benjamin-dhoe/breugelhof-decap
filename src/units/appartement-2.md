@@ -13,6 +13,7 @@ bureau: true
 kledingkast: true
 bed: true
 hoofdafbeelding: /static/img/uploads/image00007.jpeg
+hoofdafbeeldingkleur: true
 afbeeldingen:
   - /static/img/uploads/image00002.jpeg
   - /static/img/uploads/image00001.jpeg
