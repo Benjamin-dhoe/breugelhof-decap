@@ -10,20 +10,15 @@ keuken: true
 bureau: true
 kledingkast: true
 bed: true
-hoofdafbeelding: /static/img/uploads/studio-06-p-1080.jpg
+hoofdafbeelding: /static/img/uploads/whatsapp-image-2025-12-01-at-08.40.48-7-.jpeg
 afbeeldingen:
   - /static/img/uploads/studio6-1-.jpeg
   - /static/img/uploads/studio6-2-.jpeg
   - /static/img/uploads/studio6-3-.jpeg
   - /static/img/uploads/studio6-4-.jpeg
-  - /static/img/uploads/studio6-5-.jpeg
-  - /static/img/uploads/studio6-5-.jpeg
-  - /static/img/uploads/studio6-6-.jpeg
   - /static/img/uploads/studio6-7-.jpeg
-  - /static/img/uploads/studio6-8-.jpeg
   - /static/img/uploads/studio6-9-.jpeg
   - /static/img/uploads/studio6-10-.jpeg
   - /static/img/uploads/studio6-11-.jpeg
-  - /static/img/uploads/studio6-12-.jpeg
   - /static/img/uploads/studio6-13-.jpeg
 ---
