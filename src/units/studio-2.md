@@ -12,6 +12,7 @@ bureau: true
 kledingkast: true
 bed: true
 hoofdafbeelding: /static/img/uploads/Studio-02-p-1080.jpg
+hoofdafbeeldingkleur: true
 afbeeldingen:
   - /static/img/uploads/studio2-1-.jpeg
   - /static/img/uploads/studio2-2-.jpeg
