@@ -2,10 +2,10 @@
 titel: Appartement 2
 beschrijving: Volledig gerenoveerd appartement op wandelafstand van
   universiteiten, winkels, openbaar vervoer en horeca.
-grootte: 40,77
+grootte: "41"
 type: Appartement
-status: verhuurd
-disclaimer: Academiejaar 2025 - 2026
+status: beschikbaar
+disclaimer: ""
 mezzanine: true
 sanitair: true
 keuken: true
