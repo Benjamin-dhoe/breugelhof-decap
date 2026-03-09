@@ -2,7 +2,7 @@
 titel: Studio 5
 beschrijving: Volledig gerenoveerde studio op wandelafstand van universiteiten,
   winkels, openbaar vervoer en horeca.
-grootte: 27,40
+grootte: "28"
 type: Studio
 status: verhuurd
 disclaimer: Academiejaar 2025 - 2026
