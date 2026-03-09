@@ -5,7 +5,7 @@ beschrijving: Volledig gerenoveerde studio op wandelafstand van universiteiten,
 grootte: 22,13
 type: Studio
 status: verhuurd
-disclaimer: Verhuurd academiejaar 2026 – 2027
+disclaimer: Academiejaar 2026 – 2027
 sanitair: true
 keuken: true
 bureau: true
