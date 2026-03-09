@@ -2,7 +2,7 @@
 titel: Studio 3
 beschrijving: Volledig gerenoveerde studio op wandelafstand van universiteiten,
   winkels, openbaar vervoer en horeca.
-grootte: 22,62
+grootte: "23"
 type: Studio
 status: beschikbaar
 sanitair: true
