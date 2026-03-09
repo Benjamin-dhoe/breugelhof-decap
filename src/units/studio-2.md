@@ -2,10 +2,10 @@
 titel: Studio 2
 beschrijving: Volledig gerenoveerde studio op wandelafstand van universiteiten,
   winkels, openbaar vervoer en horeca.
-grootte: 24,31
+grootte: "25"
 type: Studio
-status: verhuurd
-disclaimer: Academiejaar 2025 - 2026
+status: beschikbaar
+disclaimer: ""
 sanitair: true
 keuken: true
 bureau: true
