@@ -2,7 +2,7 @@
 titel: Studio 6
 beschrijving: Volledig gerenoveerde studio op wandelafstand van universiteiten,
   winkels, openbaar vervoer en horeca.
-grootte: 23,77
+grootte: "24"
 type: Studio
 status: beschikbaar
 sanitair: true
