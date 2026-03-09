@@ -2,7 +2,7 @@
 titel: Studio 4
 beschrijving: Volledig gerenoveerde studio op wandelafstand van universiteiten,
   winkels, openbaar vervoer en horeca.
-grootte: 22,13
+grootte: "22"
 type: Studio
 status: verhuurd
 disclaimer: Academiejaar 2026 – 2027
