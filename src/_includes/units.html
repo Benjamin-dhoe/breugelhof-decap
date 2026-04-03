@@ -4,13 +4,7 @@ layout: default
 
 <div class="header black">
     <div class="header-content">
-      <h1 class="h1 brown">
-        {% if page.url.startsWith('/en/') %}
-          {{titel_en}}
-        {% else %}
-          {{titel}}
-        {% endif %}
-      </h1>
+      <h1 class="h1 brown">{{titel}}</h1>
     </div>
   </div>
   <div class="section-unit-overview">
@@ -18,22 +12,10 @@ layout: default
       <div class="overview-unit">
         <img src="{{hoofdafbeelding}}" loading="lazy" alt="" class="main-unit-image {% if hoofdafbeeldingkleur %}kleur{% endif %}">
         <div class="unit-info">
-          <div class="titleunit br">
-            {% if page.url.startsWith('/en/') %}
-              {{titel_en}}
-            {% else %}
-              {{titel}}
-            {% endif %}
-          </div>
+          <div class="titleunit br">{{titel}}</div>
           <div class="smalltext">Brusselsestraat 89, Leuven</div>
           <div class="separateline"></div>
-          <div>
-            {% if page.url.startsWith('/en/') %}
-              {{beschrijving_en}}
-            {% else %}
-              {{beschrijving}}
-            {% endif %}
-          </div>
+          <div>{{beschrijving}}</div>
           <div class="holder-unit-size">
             <div class="unitsize">{{grootte}}</div>
             <div class="smalltext">m²</div>
@@ -45,46 +27,22 @@ layout: default
           {% endif %}
           {% if sanitair %}
           <div class="feature"><img src="/static/img/icons8-bathroom-30.png" loading="lazy" width="20" alt="" class="iconfeature">
-            <div>
-              {% if page.url.startsWith('/en/') %}
-                Private bathroom facilities
-              {% else %}
-                Eigen sanitair
-              {% endif %}
-            </div>
+            <div>Eigen sanitair</div>
           </div>
           {% endif %}
           {% if keuken %}
           <div class="feature"><img src="/static/img/icons8-kitchen-50.png" loading="lazy" width="20" alt="" class="iconfeature">
-            <div>
-              {% if page.url.startsWith('/en/') %}
-                Fully-equipped kitchen
-              {% else %}
-                Ingerichte keuken
-              {% endif %}
-            </div>
+            <div>Ingerichte keuken</div>
           </div>
           {% endif %}
           {% if bureau %}
           <div class="feature"><img src="/static/img/icons8-office-30.png" loading="lazy" width="20" alt="" class="iconfeature">
-            <div>
-              {% if page.url.startsWith('/en/') %}
-                Desk
-              {% else %}
-                Bureau
-              {% endif %}
-            </div>
+            <div>Bureau</div>
           </div>
           {% endif %}
           {% if kledingkast %}
           <div class="feature"><img src="/static/img/icons8-wardrobe-48.png" loading="lazy" width="20" alt="" class="iconfeature">
-            <div>
-              {% if page.url.startsWith('/en/') %}
-                Wardrobe
-              {% else %}
-                Kledingkast
-              {% endif %}
-            </div>
+            <div>Kledingkast</div>
           </div>
           {% endif %}
           {% if bed %}
@@ -94,22 +52,14 @@ layout: default
           {% endif %}
           <div class="spacer"></div>
           <div class="spacer"></div>
-          {% if page.url.startsWith('/en/') %}
-              <a href="/en/contact.html" class="button-new w-button">Request a tour</a>
-          {% else %}
-            <a href="/contact.html" class="button-new w-button">Rondleiding aanvragen</a>
-          {% endif %}
+          <a href="/contact.html" class="button-new w-button">Rondleiding aanvragen</a>
         </div>
       </div>
     </div>
   </div>
   <div class="about-section">
     <div class="container">
-      {% if page.url.startsWith('/en/') %}
-        {{html_en | markdown | safe}}
-      {% else %}
-        {{html | markdown | safe}}
-      {% endif %}
+      {{html | markdown | safe}}
     </div>
   </div>
   <div class="about-section">
@@ -124,38 +74,18 @@ layout: default
       </div>
     </div>
   </div>
-  {% if page.url.startsWith('/en/') %}
-    {% include "./partials/bottomsectionunits-en.njk" %}
-  {% else %}
-    {% include "./partials/bottomsectionunits.njk" %}
-  {% endif %}
+{% include "./partials/bottomsectionunits.njk" %}
   <div class="cta">
     <div class="container cc-cta">
       <div class="cta-column left">
         <div class="cta-left-top">
-          <h3 class="h3 cc-cta">
-            {% if page.url.startsWith('/en/') %}
-              Interested?
-            {% else %}
-              Interesse?
-            {% endif %}
-          </h3>
+          <h3 class="h3 cc-cta">Interesse?</h3>
           <div class="cta-line"></div>
         </div>
-        <h2 class="h2"><span class="text-span">
-          {% if page.url.startsWith('/en/') %}
-            Are you interested in this apartment? Contact us!
-          {% else %}
-            Heb je interesse in dit appartement? Contacteer ons!
-          {% endif %}
-        </span></h2>
+        <h2 class="h2"><span class="text-span">Heb je interesse in dit appartement? Contacteer ons!</span></h2>
       </div>
       <div class="cta-column">
-        {% if page.url.startsWith('/en/') %}
-          <a href="/en/contact.html" class="button cc-cta w-button">Contact Breugelhof</a>
-        {% else %}
-           <a href="/contact.html" class="button cc-cta w-button">Contacteer Breugelhof</a>
-        {% endif %}
+        <a href="/contact.html" class="button cc-cta w-button">Contacteer Breugelhof</a>
       </div>
     </div>
   </div>
