@@ -1,6 +1,10 @@
 ---
+pagination:
+  data: collections.units_en
+  size: 1
+  alias: unit
+permalink: "/en/units/{{ unit.data.titel | slug }}/"
 layout: default
-permalink: /en/units/{{ titel | slug }}.html
 ---
 
 <div class="header black">

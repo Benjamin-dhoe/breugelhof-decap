@@ -66,6 +66,10 @@ module.exports = function (eleventyConfig) {
     return api.getFilteredByGlob("src/units/*.md");
   });
 
+  eleventyConfig.addCollection("units_en", function (api) {
+    return api.getFilteredByGlob("src/units/*.md");
+  });
+
   eleventyConfig.addFilter("slug", (value) => {
     if (!value) return "";
     return slugify(value, { lower: true, strict: true });
