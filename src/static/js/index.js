@@ -4,11 +4,11 @@ const popupHtml = `
           <div id="closeLang" class="closebtn">X</div>
           <div>
               <div id="langNL" class="langchoice">
-                  <img src="/static/img/flag-nl.svg" loading="lazy" alt="" class="flag">
+                  <img src="/static/img/lang-nl.svg" loading="lazy" alt="" class="flag">
                   <div>Nederlands</div>
               </div>
               <div id="langEN" class="langchoice">
-                  <img src="/static/img/flag-en.svg" loading="lazy" alt="" class="flag">
+                  <img src="/static/img/lang-en.svg" loading="lazy" alt="" class="flag">
                   <div>English</div>
               </div>
           </div>
