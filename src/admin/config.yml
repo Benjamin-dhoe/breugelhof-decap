@@ -21,11 +21,14 @@ collections:
       preview: false
     fields:
       - { label: "Titel unit", name: "titel", widget: "string", required: true }
+      - { label: "Titel unit (EN)", name: "titel_en", widget: "string", required: true }
       - { label: "Kleine beschrijving", name: "beschrijving", widget: "string" }
+      - { label: "Kleine beschrijving (EN)", name: "beschrijving_en", widget: "string" }
       - { label: "Grootte in m²", name: "grootte", widget: "string", required: true }
       - { label: "Type", name: "type", widget: "select", options: ["Studio", "Appartement"], required: true }
       - { label: "Status", name: "status", widget: "select", options: ["verhuurd", "beschikbaar"], required: true }
       - { label: "Extra tekst in overzicht", name: "disclaimer", widget: "string", required: false }
+      - { label: "Extra tekst in overzicht (EN)", name: "disclaimer_en", widget: "string", required: false }
       - label: "Mezzanine?"
         name: "mezzanine"
         widget: "boolean"
@@ -51,6 +54,7 @@ collections:
         widget: "boolean"
         required: false
       - { label: "Extra content", name: "html", widget: "markdown", required: false }
+      - { label: "Extra content (EN)", name: "html_en", widget: "markdown", required: false }
       - { label: "Hoofdafbeelding", name: "hoofdafbeelding", widget: "image", required: true }
       - { label: "Hoofdafbeelding in kleur", name: "hoofdafbeeldingkleur", widget: "boolean", required: false }
       - label: "Afbeeldingen"
@@ -70,7 +74,9 @@ collections:
           preview: false
         fields: 
           - { label: "Titel", name: "titel", widget: "string", required: true }
+          - { label: "Titel (EN)", name: "titel_en", widget: "string", required: true }
           - { label: "Tekst", name: "tekst", widget: "string", required: true }
+          - { label: "Tekst (EN)", name: "tekst_en", widget: "string", required: true }
           - { label: "Afbeelding", name: "afbeelding", widget: "image", required: true }
       - label: "Homepagina - sectie 1"
         name: "homepageSectionOne"
@@ -79,8 +85,11 @@ collections:
           preview: false
         fields: 
           - { label: "Titel", name: "titel", widget: "string", required: true }
+          - { label: "Titel (EN)", name: "titel_en", widget: "string", required: true }
           - { label: "Tekst 1", name: "tekst1", widget: "string", required: true }
+          - { label: "Tekst 1 (EN)", name: "tekst1_en", widget: "string", required: true }
           - { label: "Tekst 2", name: "tekst2", widget: "string", required: false }
+          - { label: "Tekst 2 (EN)", name: "tekst2_en", widget: "string", required: false }
           - { label: "Afbeelding", name: "afbeelding", widget: "image", required: true }
       - label: "Homepagina - features"
         name: "homepageSectionFeatures"
@@ -89,12 +98,19 @@ collections:
           preview: false
         fields: 
           - { label: "Main titel", name: "maintitel", widget: "string", required: true }
+          - { label: "Main titel (EN)", name: "maintitel_en", widget: "string", required: true }
           - { label: "Main feature 1 titel", name: "mainfeature1titel", widget: "string", required: true }
+          - { label: "Main feature 1 titel (EN)", name: "mainfeature1titel_en", widget: "string", required: true }
           - { label: "Main feature 1 tekst", name: "mainfeature1tekst", widget: "string", required: true }
+          - { label: "Main feature 1 tekst (EN)", name: "mainfeature1tekst_en", widget: "string", required: true }
           - { label: "Main feature 2 titel", name: "mainfeature2titel", widget: "string", required: true }
+          - { label: "Main feature 2 titel (EN)", name: "mainfeature2titel_en", widget: "string", required: true }
           - { label: "Main feature 2 tekst", name: "mainfeature2tekst", widget: "string", required: true }
+          - { label: "Main feature 2 tekst (EN)", name: "mainfeature2tekst_en", widget: "string", required: true }
           - { label: "Main feature 3 titel", name: "mainfeature3titel", widget: "string", required: true }
+          - { label: "Main feature 3 titel (EN)", name: "mainfeature3titel_en", widget: "string", required: true }
           - { label: "Main feature 3 tekst", name: "mainfeature3tekst", widget: "string", required: true }
+          - { label: "Main feature 3 tekst (EN)", name: "mainfeature3tekst_en", widget: "string", required: true }
           - label: "Voorzieningen"
             name: "voorzieningen"
             widget: "list"

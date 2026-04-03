@@ -1,0 +1,100 @@
+---
+layout: default
+path: home
+title: "Breugelhof - studentenresidentie in Leuven"
+description: "Breugelhof is een studentenresidentie in Leuven, we bieden betaalbare verblijfplaatsen aan die recent gerenoveerd zijn."
+---
+
+<div class="header">
+  <div class="header-content">
+    <h1 data-w-id="b777ef2d-ac03-cea3-ccc5-52beeee5222a" class="h1">Studentenresidentie Breugelhof</h1>
+    <p data-w-id="cd085e48-08fc-46a5-a6c3-97346f451e6d" class="paragraph">Breugelhof, de plek voor studenten die op zoek zijn naar een moderne, gezellige én centraal gelegen woonplek</p>
+    <a href="contact.html" class="button w-button">Interesse? Contacteer ons!</a>
+  </div>
+</div>
+{% include "./_includes/partials/homepagesectionone.njk" %}
+{% set unitsList = collections.units %}
+<div id="appartementen" class="about-section dark">
+  <div class="container">
+    <div class="holderunits">
+      {% for unit in unitsList %}
+        {% if unit.data.type == "Appartement" %}
+        <a href="/units/{{ unit.data.titel | slug }}.html" class="unit w-inline-block">
+          <div class="holderunitinfo">
+            <div><span class="titleunit">{{ unit.data.titel }} - </span><span class="available-tag {% if unit.data.status == 'verhuurd' %}false{% endif %}">{{ unit.data.status }}</span></div>
+            <div>{{ unit.data.grootte }} m² {% if unit.data.mezzanine %}+ mezzanine{% endif %}</div>
+            {% if unit.data.disclaimer %}<div>{{ unit.data.disclaimer }}</div>{% endif %}
+          </div>
+          <img src="{{ unit.data.hoofdafbeelding }}" loading="lazy" alt="" class="imageunit {% if unit.data.hoofdafbeeldingkleur %}kleur{% endif %}">
+          <div class="meerinfobtn">
+            <div>Meer info</div>
+            <div class="service-list-arrow w-embed"><svg fill="none" height="16" viewbox="0 0 64 64" width="16" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="m54.28 53.99v-45.33h-45.33v2.93h40.33l-41.25 41.25 2.07 2.07 41.25-41.25v40.33z"></path>
+              </svg></div>
+          </div>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<div id="studios" class="about-section nobg">
+  <div class="container">
+    <div class="holderunits stretch">
+      {% for unit in unitsList %}
+        {% if unit.data.type == "Studio" %}
+        <a href="/units/{{ unit.data.titel | slug }}.html" class="unit onwhite w-inline-block">
+          <div class="holderunitinfo">
+            <div><span class="titleunit">{{ unit.data.titel }} - </span><span class="available-tag {% if unit.data.status == 'verhuurd' %}false{% endif %}">{{ unit.data.status }}</span></div>
+            <div>{{ unit.data.grootte }} m² {% if unit.data.mezzanine %}+ mezzanine{% endif %}</div>
+            {% if unit.data.disclaimer %}<div>{{ unit.data.disclaimer }}</div>{% endif %}
+          </div><img src="{{ unit.data.hoofdafbeelding }}" loading="lazy" alt="" class="imageunit {% if unit.data.hoofdafbeeldingkleur %}kleur{% endif %}">
+          <div class="meerinfobtn">
+            <div>Meer info</div>
+            <div class="service-list-arrow w-embed"><svg fill="none" height="16" viewbox="0 0 64 64" width="16" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="m54.28 53.99v-45.33h-45.33v2.93h40.33l-41.25 41.25 2.07 2.07 41.25-41.25v40.33z"></path>
+              </svg></div>
+          </div>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<div class="separator cc-background-grey">
+  <div class="container">
+    <div class="line-color"></div>
+  </div>
+</div>
+<div class="premium-intro">
+  <div class="container">
+    <div class="h2-container"></div>
+  </div>
+  <div class="maps w-embed w-iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d646.5400536171405!2d4.693791875086951!3d50.88065694375343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c160de8bec3cc7%3A0x74332c5c7fcb3ec3!2sBrusselsestraat%2089%2C%203000%20Leuven!5e1!3m2!1snl!2sbe!4v1749132403425!5m2!1snl!2sbe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  <div class="undermaps">
+    <div>
+      <h3 class="h3">Location: Brusselsestraat 89, Leuven</h3>
+      <p class="paragraph-2 cc-gray">In the neighborhood you will find a supermarket, pharmacy, bakery and much more, so everything you need is within reach.</p>
+    </div>
+  </div>
+</div>
+{% include "./_includes/partials/homepagefeatures.njk" %}
+<div class="separator cc-background-grey">
+  <div class="container">
+    <div class="line-color"></div>
+  </div>
+</div>
+<div class="cta">
+  <div class="container cc-cta">
+    <div class="cta-column">
+      <div class="cta-left-top">
+        <h3 class="h3 cc-cta">Interesse?</h3>
+        <div class="cta-line"></div>
+      </div>
+      <h2 class="h2"><span class="text-span">Heb je interesse in een van onze appartementen of studio&#x27;s? Contacteer ons!</span></h2>
+    </div>
+    <div class="cta-column">
+      <a href="contact.html" class="button cc-cta w-button">Contacteer Breugelhof</a>
+    </div>
+  </div>
+</div>
