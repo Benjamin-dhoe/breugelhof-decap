@@ -26,6 +26,12 @@ voorzieningen:
   - Bed
   - Ingerichte keuken
   - Eigen sanitair
+voorzieningen_en:
+  - Office
+  - Wardrobe
+  - Bed
+  - Equipped kitchen
+  - Private bathroom facilities
 inbegrepen:
   - Water
   - Elektriciteit
@@ -33,3 +39,9 @@ inbegrepen:
   - Internet
   - Kosten algemene delen
   - Brandverzekering
+inbegrepen_en:
+  - Water
+  - Electricity
+  - Heating
+  - Costs for common areas
+  - Fire insurance
