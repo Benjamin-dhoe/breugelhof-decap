@@ -27,7 +27,7 @@
       <div class="separateinsection"></div>
       <h2 class="h2">Amenities</h2>
       <div class="titleline"></div>
-      {% set voorzieningenList = homepagefeatures.voorzieningen %}
+      {% set voorzieningenList = homepagefeatures.voorzieningen_en %}
       {% for voorziening in voorzieningenList %}
         <div class="listitem"><img src="/static/img/icons8-checkmark-48.png" loading="lazy" alt="" class="checkicon">
           <div>{{voorziening}}</div>
@@ -38,7 +38,7 @@
       <div class="separateinsection"></div>
       <h2 class="h2">Included in the monthly costs</h2>
       <div class="titleline"></div>
-      {% set inbegrepenList = homepagefeatures.inbegrepen %}
+      {% set inbegrepenList = homepagefeatures.inbegrepen_en %}
       {% for inbegrepen in inbegrepenList %}
         <div class="listitem"><img src="/static/img/icons8-checkmark-48.png" loading="lazy" alt="" class="checkicon">
           <div>{{inbegrepen}}</div>

@@ -118,8 +118,22 @@ collections:
               label: "Titel"
               name: "titel"
               widget: "string"
+          - label: "Voorzieningen_en"
+            name: "voorzieningen_en"
+            widget: "list"
+            field:
+              label: "Titel"
+              name: "titel"
+              widget: "string"
           - label: "Inbegrepen"
             name: "inbegrepen"
+            widget: "list"
+            field:
+              label: "Titel"
+              name: "titel"
+              widget: "string"
+          - label: "Inbegrepen_en"
+            name: "inbegrepen_en"
             widget: "list"
             field:
               label: "Titel"
