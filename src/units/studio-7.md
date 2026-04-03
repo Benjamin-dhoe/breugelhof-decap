@@ -1,7 +1,10 @@
 ---
 titel: Studio 7
+titel_en: Studio 7
 beschrijving: Volledig gerenoveerde studio op wandelafstand van universiteiten,
   winkels, openbaar vervoer en horeca.
+beschrijving_en: Fully renovated apartment within walking distance of
+  universities, shops, public transport, and restaurants.
 grootte: "29"
 type: Studio
 status: beschikbaar
