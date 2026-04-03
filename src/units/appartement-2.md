@@ -1,7 +1,10 @@
 ---
 titel: Appartement 2
+titel_en: Appartment 2
 beschrijving: Volledig gerenoveerd appartement op wandelafstand van
   universiteiten, winkels, openbaar vervoer en horeca.
+beschrijving_en: Fully renovated apartment within walking distance of
+  universities, shops, public transport, and restaurants.
 grootte: "41"
 type: Appartement
 status: beschikbaar
