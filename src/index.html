@@ -17,7 +17,7 @@ description: "Breugelhof is een studentenresidentie in Leuven, we bieden betaalb
 <div id="appartementen" class="about-section dark">
   <div class="container">
     <div class="holderunits">
-      {% for unit in unitsList %}
+      {% for unit in unitsList|sort(attribute='data.titel') %}
         {% if unit.data.type == "Appartement" %}
         <a href="/units/{{ unit.data.titel | slug }}.html" class="unit w-inline-block">
           <div class="holderunitinfo">
@@ -41,7 +41,7 @@ description: "Breugelhof is een studentenresidentie in Leuven, we bieden betaalb
 <div id="studios" class="about-section nobg">
   <div class="container">
     <div class="holderunits stretch">
-      {% for unit in unitsList %}
+      {% for unit in unitsList|sort(attribute='data.titel') %}
         {% if unit.data.type == "Studio" %}
         <a href="/units/{{ unit.data.titel | slug }}.html" class="unit onwhite w-inline-block">
           <div class="holderunitinfo">
