@@ -1,0 +1,92 @@
+---
+layout: default
+permalink: /en/units/{{ titel | slug }}.html
+---
+
+<div class="header black">
+    <div class="header-content">
+      <h1 class="h1 brown">{{titel_en}}</h1>
+    </div>
+  </div>
+  <div class="section-unit-overview">
+    <div class="container" style="flex-direction: row;">
+      <div class="overview-unit">
+        <img src="{{hoofdafbeelding}}" loading="lazy" alt="" class="main-unit-image {% if hoofdafbeeldingkleur %}kleur{% endif %}">
+        <div class="unit-info">
+          <div class="titleunit br">{{titel_en}}</div>
+          <div class="smalltext">Brusselsestraat 89, Leuven</div>
+          <div class="separateline"></div>
+          <div>{{beschrijving_en}}</div>
+          <div class="holder-unit-size">
+            <div class="unitsize">{{grootte}}</div>
+            <div class="smalltext">m²</div>
+          </div>
+          {% if mezzanine %}
+          <div class="feature"><img src="/static/img/icons8-mezzanine-32.png" loading="lazy" width="20" alt="" class="iconfeature">
+            <div>Mezzanine</div>
+          </div>
+          {% endif %}
+          {% if sanitair %}
+          <div class="feature"><img src="/static/img/icons8-bathroom-30.png" loading="lazy" width="20" alt="" class="iconfeature">
+            <div>Private bathroom facilities</div>
+          </div>
+          {% endif %}
+          {% if keuken %}
+          <div class="feature"><img src="/static/img/icons8-kitchen-50.png" loading="lazy" width="20" alt="" class="iconfeature">
+            <div>Fully equipped kitchen</div>
+          </div>
+          {% endif %}
+          {% if bureau %}
+          <div class="feature"><img src="/static/img/icons8-office-30.png" loading="lazy" width="20" alt="" class="iconfeature">
+            <div>Desk</div>
+          </div>
+          {% endif %}
+          {% if kledingkast %}
+          <div class="feature"><img src="/static/img/icons8-wardrobe-48.png" loading="lazy" width="20" alt="" class="iconfeature">
+            <div>Wardrobe</div>
+          </div>
+          {% endif %}
+          {% if bed %}
+          <div class="feature"><img src="/static/img/icons8-bed-48.png" loading="lazy" width="20" alt="" class="iconfeature">
+            <div>Bed</div>
+          </div>
+          {% endif %}
+          <div class="spacer"></div>
+          <div class="spacer"></div>
+          <a href="/en/contact.html" class="button-new w-button">Request tour</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="about-section">
+    <div class="container">
+      {{html_en | markdown | safe}}
+    </div>
+  </div>
+  <div class="about-section">
+    <div class="container">
+      <div class="holder-images">
+        {% set imagesList = afbeeldingen %}
+          {% for image in imagesList %}
+          <a href="{{image}}" data-lightbox="{{titel}}" data-title="{{titel}} Breugelhof">
+            <img src="{{image}}" loading="lazy" alt="Studenten {{type}} in Leuven" class="image-in-list">
+          </a>
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+{% include "./partials/bottomsectionunits.njk" %}
+  <div class="cta">
+    <div class="container cc-cta">
+      <div class="cta-column left">
+        <div class="cta-left-top">
+          <h3 class="h3 cc-cta">Interested?</h3>
+          <div class="cta-line"></div>
+        </div>
+        <h2 class="h2"><span class="text-span">Are you interested in this apartment? Contact us!</span></h2>
+      </div>
+      <div class="cta-column">
+        <a href="/en/contact.html" class="button cc-cta w-button">Contact Breugelhof</a>
+      </div>
+    </div>
+  </div>
