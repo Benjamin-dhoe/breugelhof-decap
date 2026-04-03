@@ -1,13 +1,16 @@
 ---
 titel: Appartement 1
+titel_en: Appartment 1
 beschrijving: Volledig gerenoveerd appartement op wandelafstand van
   universiteiten, winkels, openbaar vervoer en horeca.
-bed: true
-hoofdafbeelding-kleur: true
 grootte: "43"
 type: Appartement
 status: beschikbaar
 disclaimer: ""
+bed: true
+hoofdafbeelding-kleur: true
+beschrijving_en: Fully renovated apartment within walking distance of
+  universities, shops, public transport, and restaurants.
 mezzanine: false
 sanitair: true
 keuken: true
