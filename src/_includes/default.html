@@ -25,14 +25,12 @@
   </head>
   <body>
     {% if page.url.startsWith('/en/') %}
-      TEST BEFORE INCLUDE
       {% include "partials/navbar-en.html" %}
-      TEST AFTER INCLUDE
     {% else %}
       {% include "partials/navbar.html" %}
     {% endif %}
     {% if page.url.startsWith('/en/') %}
-      {{ content_en | safe }}
+      {{ content | safe }}
     {% else %}
       {{ content | safe }}
     {% endif %}
