@@ -104,6 +104,93 @@ figcaption {
   margin-top: 5px;
 }
 
+.popupholder {
+  z-index: 100;
+  opacity: 0;
+  background-image: linear-gradient(#00000080, #00000080);
+  justify-content: center;
+  align-items: center;
+  transition: opacity .75s;
+  display: none;
+  position: fixed;
+  inset: 0%;
+  visibility: hidden;
+  display: flex;
+}
+
+.popupcontainer {
+  background-color: var(--bg-grey);
+  opacity: 0;
+  border-radius: 20px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  max-width: 85vw;
+  padding: 20px 40px;
+  transition: opacity .25s;
+  display: flex;
+  position: relative;
+  max-height: 80vh;
+}
+
+.closebtn {
+  background-color: var(--brown);
+  color: var(--white);
+  cursor: pointer;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 900;
+  display: flex;
+  position: absolute;
+  inset: -15px -15px auto auto;
+}
+
+.langchoice {
+  color: var(--black);
+  text-transform: uppercase;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  cursor: pointer;
+}
+
+.flag {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  min-width: 30px;
+}
+
+.holder-lang-pick {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.languageflag {
+  width: 20px;
+  height: 20px;
+}
+
+.downarrow {
+  transform: rotate(90deg);
+}
+
 .available-tag {
   background-color: #F4FFF4;
   border: 1px solid #4caf50;
