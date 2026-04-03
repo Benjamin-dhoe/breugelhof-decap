@@ -1,7 +1,10 @@
 ---
 titel: Studio 1
+titel_en: Studio 1
 beschrijving: Volledig gerenoveerde studio op wandelafstand van universiteiten,
   winkels, openbaar vervoer en horeca.
+beschrijving_en: Fully renovated studio within walking distance of universities,
+  shops, public transport, and restaurants.
 grootte: "30"
 type: Studio
 status: beschikbaar
