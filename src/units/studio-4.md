@@ -1,11 +1,15 @@
 ---
 titel: Studio 4
+titel_en: Studio 4
 beschrijving: Volledig gerenoveerde studio op wandelafstand van universiteiten,
   winkels, openbaar vervoer en horeca.
+beschrijving_en: Fully renovated studio within walking distance of universities,
+  shops, public transport, and restaurants.
 grootte: "22"
 type: Studio
 status: verhuurd
 disclaimer: Academiejaar 2026 – 2027
+disclaimer_en: Academic year 2026–2027
 sanitair: true
 keuken: true
 bureau: true
