@@ -1,7 +1,10 @@
 ---
 titel: Studio 3
+titel_en: Studio 3
 beschrijving: Volledig gerenoveerde studio op wandelafstand van universiteiten,
   winkels, openbaar vervoer en horeca.
+beschrijving_en: Fully renovated studio within walking distance of universities,
+  shops, public transport, and restaurants.
 grootte: "23"
 type: Studio
 status: beschikbaar
