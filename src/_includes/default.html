@@ -30,9 +30,17 @@
       {% include "./partials/navbar.html" %}
     {% endif %}
 
-    {{ content | safe }}
+    {% if page.url.startsWith('/en/') %}
+      {{ content_en | safe }}
+    {% else %}
+      {{ content | safe }}
+    {% endif %}
 
-    {% include "./partials/footer.html" %}
+    {% if page.url.startsWith('/en/') %}
+      {% include "./partials/footer-en.html" %}
+    {% else %}
+      {% include "./partials/footer.html" %}
+    {% endif %}
 
     <script src="/static/js/alpine.js"></script>
 
