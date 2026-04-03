@@ -180,6 +180,7 @@ figcaption {
   align-items: center;
   font-size: 12px;
   cursor: pointer;
+  color: white;
 }
 
 .languageflag {
