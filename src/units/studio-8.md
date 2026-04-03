@@ -1,11 +1,15 @@
 ---
 titel: Studio 8
+titel_en: Studio 8
 beschrijving: Volledig gerenoveerde studio op wandelafstand van universiteiten,
   winkels, openbaar vervoer en horeca.
+beschrijving_en: Fully renovated apartment within walking distance of
+  universities, shops, public transport, and restaurants.
 grootte: "19"
 type: Studio
 status: verhuurd
 disclaimer: Academiejaar 2026 – 2027
+disclaimer_en: Academic year 2026 - 2027
 mezzanine: true
 sanitair: true
 keuken: true
