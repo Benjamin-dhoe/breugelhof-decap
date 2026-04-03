@@ -7,9 +7,9 @@ description: "Breugelhof is een studentenresidentie in Leuven, we bieden betaalb
 
 <div class="header">
   <div class="header-content">
-    <h1 data-w-id="b777ef2d-ac03-cea3-ccc5-52beeee5222a" class="h1">Studentenresidentie Breugelhof</h1>
-    <p data-w-id="cd085e48-08fc-46a5-a6c3-97346f451e6d" class="paragraph">Breugelhof, de plek voor studenten die op zoek zijn naar een moderne, gezellige én centraal gelegen woonplek</p>
-    <a href="contact.html" class="button w-button">Interesse? Contacteer ons!</a>
+    <h1 data-w-id="b777ef2d-ac03-cea3-ccc5-52beeee5222a" class="h1">Student residence Breugelhof</h1>
+    <p data-w-id="cd085e48-08fc-46a5-a6c3-97346f451e6d" class="paragraph">Breugelhof, the place for students looking for a modern, cozy, and centrally located place to live.</p>
+    <a href="/en/contact.html" class="button w-button">Interested? Contact us!</a>
   </div>
 </div>
 {% include "./_includes/partials/homepagesectionone.njk" %}
@@ -19,15 +19,15 @@ description: "Breugelhof is een studentenresidentie in Leuven, we bieden betaalb
     <div class="holderunits">
       {% for unit in unitsList %}
         {% if unit.data.type == "Appartement" %}
-        <a href="/units/{{ unit.data.titel | slug }}.html" class="unit w-inline-block">
+        <a href="/en/units/{{ unit.data.titel | slug }}.html" class="unit w-inline-block">
           <div class="holderunitinfo">
-            <div><span class="titleunit">{{ unit.data.titel }} - </span><span class="available-tag {% if unit.data.status == 'verhuurd' %}false{% endif %}">{{ unit.data.status }}</span></div>
+            <div><span class="titleunit">{{ unit.data.titel_en }} - </span><span class="available-tag {% if unit.data.status == 'verhuurd' %}false{% endif %}">{% if unit.data.status == "beschikbaar" %}available{% endif %}{% if unit.data.status == "verhuurd" %}not available{% endif %}</span></div>
             <div>{{ unit.data.grootte }} m² {% if unit.data.mezzanine %}+ mezzanine{% endif %}</div>
             {% if unit.data.disclaimer %}<div>{{ unit.data.disclaimer }}</div>{% endif %}
           </div>
           <img src="{{ unit.data.hoofdafbeelding }}" loading="lazy" alt="" class="imageunit {% if unit.data.hoofdafbeeldingkleur %}kleur{% endif %}">
           <div class="meerinfobtn">
-            <div>Meer info</div>
+            <div>Learn more</div>
             <div class="service-list-arrow w-embed"><svg fill="none" height="16" viewbox="0 0 64 64" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="m54.28 53.99v-45.33h-45.33v2.93h40.33l-41.25 41.25 2.07 2.07 41.25-41.25v40.33z"></path>
               </svg></div>
@@ -43,14 +43,14 @@ description: "Breugelhof is een studentenresidentie in Leuven, we bieden betaalb
     <div class="holderunits stretch">
       {% for unit in unitsList %}
         {% if unit.data.type == "Studio" %}
-        <a href="/units/{{ unit.data.titel | slug }}.html" class="unit onwhite w-inline-block">
+        <a href="/en/units/{{ unit.data.titel | slug }}.html" class="unit onwhite w-inline-block">
           <div class="holderunitinfo">
-            <div><span class="titleunit">{{ unit.data.titel }} - </span><span class="available-tag {% if unit.data.status == 'verhuurd' %}false{% endif %}">{{ unit.data.status }}</span></div>
+            <div><span class="titleunit">{{ unit.data.titel_en }} - </span><span class="available-tag {% if unit.data.status == 'verhuurd' %}false{% endif %}">{{ unit.data.status }}</span></div>
             <div>{{ unit.data.grootte }} m² {% if unit.data.mezzanine %}+ mezzanine{% endif %}</div>
             {% if unit.data.disclaimer %}<div>{{ unit.data.disclaimer }}</div>{% endif %}
           </div><img src="{{ unit.data.hoofdafbeelding }}" loading="lazy" alt="" class="imageunit {% if unit.data.hoofdafbeeldingkleur %}kleur{% endif %}">
           <div class="meerinfobtn">
-            <div>Meer info</div>
+            <div>Learn more</div>
             <div class="service-list-arrow w-embed"><svg fill="none" height="16" viewbox="0 0 64 64" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="m54.28 53.99v-45.33h-45.33v2.93h40.33l-41.25 41.25 2.07 2.07 41.25-41.25v40.33z"></path>
               </svg></div>
@@ -88,13 +88,13 @@ description: "Breugelhof is een studentenresidentie in Leuven, we bieden betaalb
   <div class="container cc-cta">
     <div class="cta-column">
       <div class="cta-left-top">
-        <h3 class="h3 cc-cta">Interesse?</h3>
+        <h3 class="h3 cc-cta">Interested?</h3>
         <div class="cta-line"></div>
       </div>
-      <h2 class="h2"><span class="text-span">Heb je interesse in een van onze appartementen of studio&#x27;s? Contacteer ons!</span></h2>
+      <h2 class="h2"><span class="text-span">Are you interested in one of our apartments or studios? Contact us!</span></h2>
     </div>
     <div class="cta-column">
-      <a href="contact.html" class="button cc-cta w-button">Contacteer Breugelhof</a>
+      <a href="/en/contact.html" class="button cc-cta w-button">Contact Breugelhof</a>
     </div>
   </div>
 </div>
