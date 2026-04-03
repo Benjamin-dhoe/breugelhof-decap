@@ -62,6 +62,10 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  eleventyConfig.addCollection("units", function (api) {
+    return api.getFilteredByGlob("src/units/*.md");
+  });
+
   eleventyConfig.addFilter("slug", (value) => {
     if (!value) return "";
     return slugify(value, { lower: true, strict: true });
