@@ -17,7 +17,9 @@ bed: true
 hoofdafbeelding: /static/img/uploads/Studio-02-p-1080.jpg
 hoofdafbeeldingkleur: true
 afbeeldingen:
-  - /static/img/uploads/studio2-1-.jpeg
-  - /static/img/uploads/studio2-2-.jpeg
-  - /static/img/uploads/studio2-3-.jpeg
+  - /static/img/uploads/image-8-.jfif
+  - /static/img/uploads/image-9-.jfif
+  - /static/img/uploads/image-10-.jfif
+  - /static/img/uploads/image-11-.jfif
+  - /static/img/uploads/image-12-.jfif
 ---
