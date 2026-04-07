@@ -14,7 +14,7 @@ keuken: true
 bureau: true
 kledingkast: true
 bed: true
-hoofdafbeelding: /static/img/uploads/Studio-02-p-1080.jpg
+hoofdafbeelding: /static/img/uploads/image-9-.jfif
 hoofdafbeeldingkleur: true
 afbeeldingen:
   - /static/img/uploads/image-8-.jfif
