@@ -5,8 +5,8 @@ beschrijving: Volledig gerenoveerd appartement op wandelafstand van
   universiteiten, winkels, openbaar vervoer en horeca.
 grootte: "43"
 type: Appartement
-status: beschikbaar
-disclaimer: ""
+status: verhuurd
+disclaimer: Academiejaar 2026 - 2027
 bed: true
 hoofdafbeelding-kleur: true
 beschrijving_en: Fully renovated apartment within walking distance of
