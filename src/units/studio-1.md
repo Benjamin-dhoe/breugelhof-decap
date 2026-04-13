@@ -7,7 +7,8 @@ beschrijving_en: Fully renovated studio within walking distance of universities,
   shops, public transport, and restaurants.
 grootte: "30"
 type: Studio
-status: beschikbaar
+status: verhuurd
+disclaimer: Academiejaar 2026 - 2027
 sanitair: true
 keuken: true
 bureau: true
