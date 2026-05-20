@@ -7,7 +7,7 @@ beschrijving_en: Fully renovated apartment within walking distance of
   universities, shops, public transport, and restaurants.
 grootte: "41"
 type: Appartement
-status: beschikbaar
+status: verhuurd
 disclaimer: ""
 mezzanine: true
 sanitair: true
