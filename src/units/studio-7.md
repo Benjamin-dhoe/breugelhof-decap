@@ -7,7 +7,7 @@ beschrijving_en: Fully renovated apartment within walking distance of
   universities, shops, public transport, and restaurants.
 grootte: "29"
 type: Studio
-status: beschikbaar
+status: verhuurd
 sanitair: true
 keuken: true
 bureau: true
